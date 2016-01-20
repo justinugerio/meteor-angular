@@ -1,4 +1,4 @@
-# [Meteor Angular](http://www.angular-meteor.com) - [A Playground App]
+# [Meteor Angular](http://www.angular-meteor.com) - A Playground App
 
 An playground app to test platform features.
 
