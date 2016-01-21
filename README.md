@@ -18,4 +18,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2016 Justin Ugerio, Code released under the [MIT](https://opensource.org/licenses/MIT) license.
+Copyright 2016 Justin Ugerio, Code released under the [MIT](https://opensource.org/licenses/MIT) license
