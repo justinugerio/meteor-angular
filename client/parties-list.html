@@ -2,5 +2,14 @@
     <li ng-repeat="party in partiesList.parties">
         <span><strong>{{ party.name }}</strong></span>
         <p><code>{{ party.description}}</code></p>
+        <p>{{ partiesList.yourmother }}</p>
+        <button ng-click="partiesList.removeParty(party)">X</button>
     </li>
 </ul>
+<form>
+    <label>Party Name: </label>
+    <input type="text" ng-model="partiesList.newParty.name"/>
+    <label>Description: </label>
+    <input type="text" ng-model="partiesList.newParty.description"/>
+    <button ng-click="partiesList.addParty()">Add Party!</button>
+</form>
