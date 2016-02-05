@@ -11,3 +11,7 @@ ul.ul-sortable {
 li.li-sortable {
     float: left;
 }
+
+div.div-sortable {
+    float: left;
+}
