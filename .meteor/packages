@@ -20,5 +20,4 @@ twbs:bootstrap
 underscore
 fortawesome:fontawesome
 angular
-arnogregorian:angularjs-dragula
 angularui:angular-ui-router

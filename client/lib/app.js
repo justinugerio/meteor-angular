@@ -1,4 +1,3 @@
 
-angular.module('socially', ['angular-meteor', angularDragula(angular)]);
-
+angular.module('socially', ['angular-meteor', 'ng-sortable']);
 

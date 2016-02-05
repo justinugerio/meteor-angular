@@ -38,6 +38,23 @@ angular.module('socially').controller('MainTestCtrl', ['$scope', '$q', function 
         $scope.hello = update;
     });
     
+    
+    $scope.pac12Teams = ['arizona', 'cal', 'stanford', 'ucla', 'usc', 'washington'];
+    $scope.otherTeams = ['duke', 'florida', 'georgetown', 'kansas', 'louisville', 'lsu'];
+    $scope.otherTeams2 = ['maryland', 'michigan', 'michiganstate', 'oregon', 'osu', 'ou', 'texas', 'uk', 'unc', 'villanova', 'washington', 'wisc'];
+    
+    $scope.sortableConfig = {
+        group: 'teams',
+        animation: 200        
+    };
+    
+    $scope.sortableConfig2 = {
+        group: 'teams2',
+        animation: 200        
+    };
+    
+    $scope.visibility = 'show';
+    
 }]);
 
 

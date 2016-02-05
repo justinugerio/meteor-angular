@@ -1,0 +1,13 @@
+
+body {
+    /*background-color: burlywood;*/
+}
+
+ul.ul-sortable {
+    list-style: none;
+}
+
+
+li.li-sortable {
+    float: left;
+}
