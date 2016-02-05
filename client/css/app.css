@@ -15,3 +15,51 @@ li.li-sortable {
 div.div-sortable {
     float: left;
 }
+
+div.center {
+    margin: auto;
+}
+
+div.ju-static {
+    position: static;
+    background-color: cornflowerblue;
+    border-color: blue;
+    border-style: solid;
+    border-width: 3px;
+    
+    top: 30px;
+    left: 30px;
+}
+
+div.ju-relative {
+    position: relative;
+    background-color: firebrick;
+    border-color: deeppink;
+    border-style: solid;
+    border-width: 3px;
+    
+    top: 30px;
+    left: 30px;
+}
+
+div.ju-absolute {
+    position: absolute;
+    background-color: yellowgreen;
+    border-color: forestgreen;
+    border-style: solid;
+    border-width: 3px;
+    
+    top: 30px;
+    left: 30px;
+}
+
+div.ju-fixed {
+    position: fixed;
+    background-color: orange;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 3px;
+    
+    bottom: 30px;
+    right: 30px;
+}

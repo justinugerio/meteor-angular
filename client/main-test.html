@@ -6,45 +6,21 @@
 <hr>
 
 <div ng-controller="MainTestCtrl">
-
-    <!-- Row -->
-    <div class="row">
-        <div class="col-md-4">
-            <h3>Section</h3>
-            <section>
-
-                <p>{{ hello }}</p>
-                <button class="btn btn-primary" ng-click="btnClick('Holla')">Click Me!</button>
-
-            </section>
-        </div>
-        <div class="col-md-4">
-            <h3>Section</h3>
-            <section>
-
-                <p>{{ hello }}</p>
-
-            </section>
-        </div>
-        <div class="col-md-4">
-            <h3>Section</h3>
-            <section>
-
-                <p>{{ hello }}</p>
-
-            </section>
-        </div>
-    </div>
-    <!-- /.Row -->
-    
-    <br>
     
     <!-- Row -->
-    <div class="row">
+    <div class="row" ng-show="true">
         <div class="col-md-12">
             <h3>Drag & Drop Testing</h3>
             <section>
             
+                <div class="center">
+                    <ul class="ul-sortable">
+                        <li class="li-sortable">
+                            <img src="images/basketball.jpg" alt="basketball" class="img-thumbnail" height="100" width="100">
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
                 <div ng-class="visibility">
                     <ul ng-sortable="sortableConfig" class="ul-sortable">
                         <li ng-repeat="team in pac12Teams" class="li-sortable">
@@ -74,5 +50,61 @@
         </div>
     </div>
     <!-- /.Row -->
+    
+    <br ng-show="true">
+    
+    <!-- Row -->
+    <div class="row" ng-show="false">
+        <div class="col-md-4">
+            <h3>Section</h3>
+            <section>
 
+                <p>{{ hello }}</p>
+                <button class="btn btn-primary" ng-click="btnClick('Holla')">Click Me!</button>
+
+            </section>
+        </div>
+        <div class="col-md-4">
+            <h3>Section</h3>
+            <section>
+
+                <p>{{ hello }}</p>
+
+            </section>
+        </div>
+        <div class="col-md-4">
+            <h3>Section</h3>
+            <section>
+
+                <p>{{ hello }}</p>
+
+            </section>
+        </div>
+    </div>
+    <!-- /.Row -->
+    
+    <br ng-show="true">
+    
+    <!-- Row -->
+    <div class="row" ng-show="false">
+        <div class="ju-static">
+            <h4>Static</h4>
+        </div>
+        <div class="ju-relative">
+            <h4>Relative</h4>
+            <div class="ju-absolute">
+                <h5>Inner Absolute</h5>
+            </div>
+        </div>
+        <div class="ju-absolute">
+            <h4>Absolute</h4>
+        </div>
+        <div class="ju-fixed">
+            <h4>Fixed</h4>
+        </div>
+        <div class="ju-static">
+            <h4>Last Static</h4>
+        </div>
+    </div>    
+    
 </div>
